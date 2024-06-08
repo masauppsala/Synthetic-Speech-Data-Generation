@@ -24,5 +24,3 @@
 
 5. **Writing to an Audio File:**
    - `writesound(vowels, filename = "vowelpairs.wav", fs = 10000)`: This function from the `tuneR` library saves the combined audio data to a WAV file named "vowelpairs.wav". The specified sampling frequency is 10000 Hz, which is adequate for capturing the frequency range of human speech without excessive data.
-
-Overall, this script is likely used in a linguistic or phonetic research context where precise control over sound characteristics is necessary, such as in studies of vowel perception or speech processing experiments.
