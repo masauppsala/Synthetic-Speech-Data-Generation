@@ -16,7 +16,7 @@ vowel2 = vowelsynth(ffs = c(657.5, 1174), fbw = 0.06,
                     dur = 500, f0 = c(117.9), fs = 10000, verify = FALSE,
                     returnSound = FALSE, noise1 = .010, noise2 = .030, power = NULL)
 
-# Combine the noise and vowel sounds into a single vector
+# Combine the noise and vowel sounds into a single audio instance
 vowels = c(noise1, vowel1, noise1, vowel2, noise1)
 
 # Write the combined sound to a WAV file with a specified sampling frequency
